@@ -2,8 +2,80 @@
 <html>
 <head>
     <title>ejercicio web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
+    <table style="width: 300px;">
+        <thead>
+            <tr>
+                <th>PRODUCTO</th>
+                <th>PRECIO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Celular</td>
+                <td>$ 56.000</td>
+            </tr>
+            <tr>
+                <td>Celular 2</td>
+                <td>$ 56.900</td>
+            </tr>
+            <tr>
+                <td>Celular 3</td>
+                <td>$ 5.000.000</td>
+            </tr>
+            <tr>
+                <td>Celular resistente al agua</td>
+                <td>$ 56.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>TOTAL</td>
+            <td>$ 5.458.152</td>
+        </tfoot>
+
+
+
+    </table>
+
+
+
+
+
+    <hr>
+    <!--lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+    <hr>
+    <!--lista ordenada-->
+    <ol>
+        <li value="10">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li> 
+            <ol>
+                <li style="list-style-type:square;">Sub-ordinado 1</li>
+                <li style="list-style-type: square;">Sub-ordinado 2</li>
+                <li style="list-style-type: square;">Sub-ordinado 3</li>
+                <li style="list-style-type: square;">Sub-ordinado 4</li>
+                <li style="list-style-type: square;">Sub-ordinado 5</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+
 
 
     <form action="/formulario" method="POST">
